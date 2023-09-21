@@ -1,0 +1,23 @@
+@import '../../theme.scss';
+
+.principal-others {
+  text-align: center;
+  margin: 40px 0;
+
+    .data-others {
+      .data-item {
+        background-color: $color-teal;
+        color: $color-white;
+        border: none;
+        cursor: pointer;
+        padding: 5px 10px;
+        height: 30px;
+        width: 120px;
+        margin: 20px;
+        border-radius: 5px;
+        &:hover {
+          background-color: $color-blue;
+        }
+      }
+    }
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+$font-family-roboto: 'Roboto', sans-serif;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$color-navy: #142850;
+$color-blue: #27496D;
+$color-teal: #00909E;
+$color-white: #DAE1E7;
+
+body {
+  font-family: $font-family-roboto;
+  font-weight: $font-weight-normal;
+  background-color: $color-navy;
+  color: $color-white;
+  margin: 0 32px;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    margin: 0 8px;
+  }
+}

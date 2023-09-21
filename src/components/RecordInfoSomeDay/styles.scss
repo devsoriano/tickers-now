@@ -1,0 +1,41 @@
+@import '../../theme.scss';
+
+.container-record {
+  text-align: center;
+
+  .card-detail {
+    display: flex;
+    flex-wrap: wrap; 
+
+    .card-item {
+      flex: 1; 
+      padding: 10px;
+      background-color: $color-blue;
+      border-radius: 5px;
+      margin: 5px;
+      text-align: center;
+  
+      .label {
+        font-weight: bold;
+      }
+  
+      .value {
+        margin-top: 5px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .card-item {
+        flex: 1 1 50%;
+      }
+    }
+  
+    @media (max-width: 480px) {
+  
+      .card-item {
+        flex: 1 1 100%;
+      }
+    }
+  }
+
+}

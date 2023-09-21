@@ -1,0 +1,37 @@
+.history-chart-container {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  .date-picker-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .react-datepicker {
+      margin: 0 10px;
+
+      @media (max-width: 768px) {
+        margin: 10px 0;
+      }
+    }
+  }
+
+  .chart-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto;
+
+    @media (max-width: 768px) {
+      width: 90%;
+      max-width: none;
+    }
+
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

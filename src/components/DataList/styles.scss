@@ -1,0 +1,50 @@
+@import '../../theme.scss';
+
+.data-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 18px;
+
+  .data-item {
+    border: 2px solid $color-blue;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .data-item-info {
+      flex: 1; 
+      padding: 10px;
+      background-color: $color-blue;
+      border-radius: 5px;
+      margin: 5px;
+      text-align: center;
+    }
+    @media (max-width: 768px) {   
+      .data-item-info {
+        flex: 1 1 50%; 
+      }
+    }
+
+    @media (max-width: 480px) {   
+      .data-item-info {
+        flex: 1 1 100%;
+      }
+    }
+    
+    .detail-button {
+      background-color: $color-teal;
+      color: $color-white;
+      border: none;
+      cursor: pointer;
+      padding: 5px 10px;
+      height: 30px;
+      &:hover {
+        background-color: $color-blue;
+      }
+    }
+    
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../theme.scss';
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+
+  button {
+    border-radius: 5px;
+    background-color: $color-blue;
+    color: $color-white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    height: 30px;
+    &:hover {
+      background-color: $color-teal;
+    }
+  }
+}
