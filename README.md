@@ -53,3 +53,5 @@ http://127.0.0.1:5173/
 # Detail ticker
 
 ![image](https://github.com/devsoriano/payments-conekta/assets/22625671/15e1c6fc-f168-4ab6-b1eb-35eaaa61d642)
+
+# [Go to NOW TICKERS](https://tickers-now.vercel.app/)
