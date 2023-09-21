@@ -16,6 +16,8 @@ _Node must be installed, preferably in the latest version._
 
 _First of all, if you are going to run the application locally, you must install and run the backend locally or consume the production service on Vercel._
 
+[BFF Repo](https://github.com/devsoriano/proxy-backend-gbm)
+
 _Create the .env.local file in the project's root directory. If you need the development backend resource, you should enter the following in the file:_
 
 ```
