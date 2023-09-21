@@ -2,7 +2,7 @@
 
 # Fullstack Coding Challenge
 
-_GBMcoding challenge, practical exam_
+_GBM coding challenge, practical exam_
 
 ## Getting Started 🚀
 
