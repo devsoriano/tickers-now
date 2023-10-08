@@ -1,9 +1,3 @@
-# Rafael Soriano Ramírez
-
-# Fullstack Coding Challenge
-
-_GBM coding challenge, practical exam_
-
 ## Getting Started 🚀
 
 _Two screens will be displayed, a list of tickers and the details of tickers._
